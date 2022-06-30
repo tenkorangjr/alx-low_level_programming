@@ -3,16 +3,12 @@
 
 
 /**
- *
- *  * main - Prints "with proper grammar, but the outcome is
- *
- *   *                a piece of art," followed by a new line.
- *
- *    *
- *
- *     * Return: Always 0.
- *
- *      */
+ *Description: main - Prints out a string to stdout
+ *comments in C source code.
+ *Please use it consistently.
+ *Return: 0 if success
+ *Description:  Print a string.
+ */
 
 int main(void)
 
