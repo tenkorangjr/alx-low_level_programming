@@ -1,16 +1,34 @@
-#include <stdio.h>                                                                                                                              
-int main(){                                                                                                                                     
-                char pr;                                                                                                                        
-char ch;                                                                                                                                        
-                        for (ch = 'a';ch <= 'z'; ch++){                                                                                         
-                                                                                                                                                
-                        putchar(ch);                                                                                                            
-                                                                                                                                                
-                        }                                                                                                                       
-                                                                                                                                   
-                        for (pr = 'A';pr <= 'Z'; pr++){                                                                                         
-                                                                                                                                                
-                       putchar(pr);                                                                                                             
-                        }       return 0;                                                                                                       
-                                                                                                                                                
-} 
+#include <stdio.h>
+
+/**
+
+ * main - prints the alphabet in lowercase.
+
+(*
+
+ * Return: 0 on success
+
+ */
+
+int main(void)
+
+{
+
+	char c = 'a';
+
+
+	while (c <= 'z')
+
+	{
+
+		putchar(c);
+
+		c++;
+
+	}
+
+	putchar('\n');
+
+	return (0);
+
+}
